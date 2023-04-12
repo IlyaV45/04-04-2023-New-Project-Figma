@@ -35,7 +35,21 @@ h3,
 strong{
     font-weight: 700;
 }
-.btn{}
+p{
+    line-height: 1.6em;   
+}
+.btn{
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    min-width: 232px;
+    padding: 1.1em 0;
+    border-radius: 70px;
+    background-color: var(--color-main);
+    color: var(--color-bg);
+    font-weight: 900;
+    text-align: center;
+}
 
 /* @media (min-width: 768px){
 
@@ -45,5 +59,14 @@ strong{
         font-size: 22px;
         /* line-height: 35px;    */
     }   
+    .container{
+        max-width: 990px;
+        margin: auto;
+    }
+}
+@media (min-width: 1440px){   
+    .container{
+        max-width: 1170px;
+    }
 }
 
